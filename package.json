@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -watch ./src --ext \"ts\" --exec \"pnpm start\"",
+    "generate": "graphql-codegen",
     "start": "ts-node src/index.ts"
   },
   "keywords": [],
@@ -12,6 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "@apollo/client": "^3.7.3",
+    "@graphql-codegen/cli": "^2.16.2",
+    "@graphql-codegen/typescript": "^2.8.6",
+    "@graphql-codegen/typescript-resolvers": "^2.7.11",
     "@tsconfig/node18": "^1.0.1",
     "@types/node": "18",
     "dotenv": "^16.0.3",
