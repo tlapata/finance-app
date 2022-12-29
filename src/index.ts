@@ -10,7 +10,7 @@ const typeDefs = gql`
 
 const resolvers = {
     Query: {
-        hello: () => "world",
+        hello: () => "That is my first Apollo Server",
     }
 }
 
