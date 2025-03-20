@@ -1,7 +1,7 @@
 scalar JSON
 
 type Query {
-    hello: String!
+    info: String!
 }
 
 type Mutation {

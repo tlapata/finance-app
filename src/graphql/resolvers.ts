@@ -16,7 +16,7 @@ const resolvers: Resolvers = {
     JSON: GraphQLJSON,
 
     Query: {
-        hello: () => "That is my first Apollo Server.",
+        info: () => "That is my first Apollo Server.",
     },
 
     Mutation: {
